@@ -2,11 +2,15 @@
 name = "termz"
 version = "0.1.0"
 edition = "2024"
-description = "Minimal terminal utilities for Rust"
+description = "Terminal utilities for CLI, TUI, IO and general string helpers"
 license = "MIT"
 repository = "https://github.com/cgroening/rs-termz"
 readme = "README.md"
-keywords = ["cli", "tool"]
-categories = ["command-line-utilities"]
+keywords = ["cli", "tui", "terminal", "ansi", "utilities"]
+categories = ["command-line-utilities", "command-line-interface"]
+
+[lib]
+name = "termz"
+path = "src/lib.rs"
 
 [dependencies]
