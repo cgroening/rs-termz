@@ -1,0 +1,12 @@
+[package]
+name = "termz"
+version = "0.1.0"
+edition = "2024"
+description = "Minimal terminal utilities for Rust"
+license = "MIT"
+repository = "https://github.com/cgroening/rs-termz"
+readme = "README.md"
+keywords = ["cli", "tool"]
+categories = ["command-line-utilities"]
+
+[dependencies]
